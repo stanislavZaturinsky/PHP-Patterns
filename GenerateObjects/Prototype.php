@@ -61,7 +61,7 @@ print_r($factory->getForest());
 //который мы добавляем в T e r ra i n F a c t o r y .
 //$ factory = n e w TerrainFactory (new EarthSea ( ) ,
 //                                  new MarsPlains ( ) ,
-//                                  new EarthForest ( ) ) ;
+//                                  new EarthForest ( ) );
 //Итак. шаблон Prototype позволяет пользоваться преимуществами гибкости, которые
 //предоставляет композиция.
 

@@ -14,9 +14,14 @@ abstract class Unit {
 class UnitException extends Exception {}
 
 class Archer extends Unit {
-
     function bombardStrength() {
         return 4;
+    }
+}
+
+class Cavalry extends Unit {
+    function bombardStrength() {
+        return 12;
     }
 }
 
@@ -26,6 +31,11 @@ class LaserCannotUnit extends Unit {
     }
 }
 
+class TroopCarrierUnit extends Unit {
+    function bombardStrength() {
+        return 20;
+    }
+}
 class Army extends Unit{
     private $units = [];
     private $armies = [];

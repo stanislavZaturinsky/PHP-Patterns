@@ -1,5 +1,4 @@
 <?php
-
 abstract class Unit
 {
     protected $depth = 0;

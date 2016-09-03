@@ -1,5 +1,6 @@
 <?php
 class ShopProduct {
+    private $id = 0;
     private $title;
     private $producerMainName;
     private $producerFirstName;
@@ -48,6 +49,10 @@ class ShopProduct {
         $base  = "$this->title ({$this->producerMainName},";
         $base .= "{$this->producerFirstName} )";
         return $base;
+    }
+
+    public function setID($id) {
+        $this->id = $id;
     }
 }
 

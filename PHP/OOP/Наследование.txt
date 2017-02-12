@@ -28,3 +28,11 @@ class B extends A {
     parent::example(); //и никогда не выполнится
   }
 }
+
+------------------------------------------------------------------------------
+
+Inheritance allows a class to have the same behavior as another class and extend or
+tailor that behavior to provide special action for specific needs.
+
+Наследование позволяет классу иметь такое же поведение, как другой класс и расширить
+или адаптировать это поведение, чтобы обеспечить специальные действия для конкретных нужд.
